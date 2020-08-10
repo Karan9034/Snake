@@ -95,7 +95,7 @@ def main():
 
 	clock=pygame.time.Clock()
 	screen=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT),0,32)
-
+	pygame.display.set_caption("Snake")
 	surface=pygame.Surface(screen.get_size())
 	surface=surface.convert()
 	drawGrid(surface)
